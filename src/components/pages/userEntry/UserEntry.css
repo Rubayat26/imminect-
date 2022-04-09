@@ -1,0 +1,114 @@
+.navbar {
+	height: 110px;
+	background: linear-gradient(90.32deg, #3e1f92 0%, #fa949d 124.75%);
+}
+.logo {
+	position: relative;
+	width: 56.57px;
+	height: 56.57px;
+
+	background: #fa949d;
+	border-radius: 6px;
+	transform: rotate(-45deg);
+}
+.call-icon {
+	position: absolute;
+	left: 2.65%;
+	top: 18px;
+	margin-top: 15px;
+}
+.top-header {
+	position: relative;
+	width: 207px;
+	height: 44px;
+
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 40px;
+	line-height: 48px;
+
+	color: #fa949d !important;
+}
+.heading {
+	position: absolute;
+	width: 270px;
+	height: 70px;
+	left: 50px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+
+	font-size: 60px;
+	line-height: 90px;
+
+	color: #000000;
+}
+.user-entry {
+	margin-top: 50px;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.info-group {
+	width: 240px;
+}
+.column-label {
+	margin-top: 20px;
+	padding: 15px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.title-label {
+	display: flex;
+	width: 155px;
+	height: 23px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+
+	color: #000000;
+}
+
+.label-box {
+	margin-top: 5px;
+	width: 155px;
+	height: 40px;
+
+	background: #e8eaeb !important;
+	border-radius: 12px;
+}
+
+.button1 {
+	position: relative;
+	width: 200px;
+	height: 60px;
+	left: 280px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: xx-large;
+	line-height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	background: #34197e;
+	border-radius: 15px;
+}
+.user-entry .button1:hover {
+	background: #857f98;
+}
+.link {
+	position: relative;
+	font-size: xx-large;
+	border: 3px solid rgb(230, 230, 227);
+	background-color: #e8eaeb;
+	border-radius: 13px;
+	text-decoration: none;
+}

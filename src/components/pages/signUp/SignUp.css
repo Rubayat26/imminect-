@@ -1,0 +1,106 @@
+.navbar-signup {
+	height: 110px;
+	background-color: none;
+}
+.nav-logo {
+	position: sticky;
+}
+.nav-logo .logo {
+	margin-top: 5px;
+}
+
+.nav-logo .call-icon {
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+.signup-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 572px;
+	height: 700px;
+}
+
+.header {
+	width: 550px;
+	height: 72px;
+	left: 500px;
+
+	font-family: 'Folio';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 60px;
+	line-height: 72px;
+	text-align: center;
+
+	color: #3e1f92;
+}
+.form-field {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 50px;
+
+	background: #ffffff;
+}
+
+.input {
+	width: 546px;
+	height: 88px;
+
+	background: #ffffff !important;
+	box-shadow: inset 0px 0px 4px rgba(200, 197, 197, 0.25);
+	border-radius: 6px;
+}
+
+.form-group {
+	margin-top: 10px;
+	padding: 15px;
+}
+.inner-icon {
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 9999;
+}
+.button-group {
+	margin-bottom: 35px;
+	display: flex;
+	justify-content: center;
+}
+
+.button2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 24px 100px;
+
+	position: absolute;
+	width: 294px;
+	height: 78px;
+
+	background: #3e1f92 !important;
+	border-radius: 63px !important;
+}
+
+.bottom-group {
+	margin-top: 70px;
+	position: relative;
+	width: 250px;
+	height: 24px;
+	left: 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Folio';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 24px;
+	/* identical to box height */
+
+	color: #000000;
+}
