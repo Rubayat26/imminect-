@@ -3,7 +3,7 @@ import { UserContext } from '../../../contexts/UserContext';
 import { Link } from 'react-router-dom';
 import './UserEntry.css';
 import { Navbar, Form, Row, Col, Button } from 'react-bootstrap';
-const API_BASE = 'http://localhost:5000';
+const API_BASE = 'http://143.198.173.218:5000';
 
 function UserEntry() {
 	const { user } = useContext(UserContext);

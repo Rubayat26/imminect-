@@ -19,7 +19,7 @@ import {
 // This will be the SignUp Page,
 // User will be able to SigUp from this page, if they don't have an account
 
-const API_BASE = 'http://localhost:5000';
+const API_BASE = 'http://143.198.173.218:5000';
 
 function SignUp() {
 	const [name, setName] = useState(''); //Use state for getting name from the user's inputs
