@@ -23,7 +23,7 @@ const navStyle = {
 // This will be the LogIn Page,
 // User will be able to LogIn from this page, if they have an account
 
-const API_BASE = 'http://143.198.173.218:5000';
+const API_BASE = 'https://api.imminect.com';
 
 function LogIn() {
 	const [email, setEmail] = useState('');
